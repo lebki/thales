@@ -58,7 +58,7 @@ def read_xml(xml_file):
         print("NR[{0}] Name: {1} Category: {2}".format(counter,description,category))
 
         if category =='failure':
-            failCounter+=1
+            failCounter+=1 #fail count increase
 
     print("---------------------------------------------------------------------------------------------------------")
     print("Global stats: Failures {0} Others {1} All {2}".format(failCounter,(counter-failCounter),counter))
